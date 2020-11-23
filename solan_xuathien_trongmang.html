@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    function check() {
+        let array = ['1', '1', '5', 'a', 'b', 'c', 'c'];
+        let count = 0;
+        let x = prompt('Nhap ki tu de kiem tra');
+        for (let i = 0; i < array.length; i++) {
+            if (x == array[i]) {
+                count++;
+            }
+        }
+        count ==0? alert('Khong tim thay trong mang'): alert('So lan xuat hien cua phan tu trong mang la '+count);
+    }
+    check();
+</script>
+
+</body>
+</html>
